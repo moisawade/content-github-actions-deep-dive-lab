@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       BUCKET_NAME: cfst-3457-473a3e3aee89174bb7c501d7c-nonprodbucket-s7v7kckenldo
     steps:
